@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="30dp"
+        tools:context=".RespiracaoActivityActivity">
+
+        <TextView
+            android:id="@+id/respiracoespage"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Escolha sua Respiração"
+            android:layout_marginTop="50dp"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            />
+
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/retangulo1"
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:layout_below="@+id/respiracoespage"
+            app:cardBackgroundColor="@color/black"
+            app:cardCornerRadius="20dp"
+            android:layout_marginTop="40dp">
+
+            <TextView
+                android:id="@+id/textDormir"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="24dp"
+                android:gravity="bottom"
+                android:text="Para dormir    >>>"
+                android:textSize="20sp"
+                android:textColor="#c6c6c6" />
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/retangulo2"
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:layout_below="@+id/retangulo1"
+            app:cardBackgroundColor="@color/black"
+            app:cardCornerRadius="20dp"
+            android:layout_marginTop="40dp">
+
+            <TextView
+                android:id="@+id/textAlongada"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="24dp"
+                android:gravity="bottom"
+                android:text="Respiração alongada    >>>"
+                android:textSize="20sp"
+                android:textColor="#c6c6c6" />
+        </androidx.cardview.widget.CardView>
+
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/retangulo3"
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:layout_below="@+id/retangulo2"
+            app:cardBackgroundColor="@color/black"
+            app:cardCornerRadius="20dp"
+            android:layout_marginTop="40dp">
+
+            <TextView
+                android:id="@+id/textAbdominal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="24dp"
+                android:gravity="bottom"
+                android:text="Respiração abdominal    >>>"
+                android:textSize="20sp"
+                android:textColor="#c6c6c6" />
+        </androidx.cardview.widget.CardView>
+
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/retangulo4"
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:layout_below="@+id/retangulo3"
+            app:cardBackgroundColor="@color/black"
+            app:cardCornerRadius="20dp"
+            android:layout_marginTop="40dp">
+
+            <TextView
+                android:id="@+id/textAlternada"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="24dp"
+                android:gravity="bottom"
+                android:text="Respiração alternada    >>>"
+                android:textSize="20sp"
+                android:textColor="#c6c6c6" />
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/retangulo5"
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:layout_below="@+id/retangulo4"
+            app:cardBackgroundColor="@color/black"
+            app:cardCornerRadius="20dp"
+            android:layout_marginTop="40dp">
+
+            <TextView
+                android:id="@+id/textQuadrada"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="24dp"
+                android:gravity="bottom"
+                android:text="Respiração quadrada    >>>"
+                android:textSize="20sp"
+                android:textColor="#c6c6c6" />
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/retangulo6"
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:layout_below="@+id/retangulo5"
+            app:cardBackgroundColor="@color/black"
+            app:cardCornerRadius="20dp"
+            android:layout_marginTop="40dp">
+
+            <TextView
+                android:id="@+id/textProgressiva"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="24dp"
+                android:gravity="bottom"
+                android:text="Respiração Progressiva    >>>"
+                android:textSize="20sp"
+                android:textColor="#c6c6c6" />
+        </androidx.cardview.widget.CardView>
+
+
+
+    </RelativeLayout>
+
+</ScrollView>
